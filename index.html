@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--сначала нормализатор-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />  
+   <!--без маркеров-->
+   <style>
+        li{
+            list-style: none;
+        }
+    </style>
+    <!--Основные шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<!--Ссылка на css-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container-header">
+            <div class="container-headlink">
+         <a class="header-link" href="webstudio"><span class="header-link-txt">Web</span>Studio</a>
+          <nav class="nav">
+               <ul class="nav-list"> 
+                   <li class="nav-item" ><a class="nav-link" href="#">Cтудия</a></li>
+                   <li class="nav-item" ><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                   <li class="nav-item" ><a class="nav-link" href="#">Контакты</a></li>
+               </ul>
+          </nav>
+          <!--Посилання на адресу електронної пошти та телефон-->
+                 <ul class="header-contacts">
+                    <li class="header-item"><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header-item"><a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+        </div>
+        </div>
+           
+    </header>                 
+    
+    <!--Main content-->
+     <main>
+         <!--Эффективные решения для вашего бизнеса-->
+          <section class="efectdecision" >
+              <div class="container-decision">
+              <h1 class="efectdecision-title" >ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+                 <button class="efectdecision-button" type="button">Заказать услугу</button>
+                </div>     
+          </section>
+
+          <!--Качества-->
+          <section class="quality">
+              <div class="container-quality">
+              <ul class="quality-list">
+                  <li class="quality-item">
+                      <h3 class="quality-subtitle">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                      <p class="quality-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                  </li>
+                  <li class="quality-item">
+                      <h3 class="quality-subtitle">ПУНКТУАЛЬНОСТЬ</h3>
+                      <p class="quality-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                  </li>
+                  <li class="quality-item">
+                      <h3 class="quality-subtitle">ПЛАНИРОВАНИЕ</h3>
+                      <p class="quality-text">Равным образом констультация с широким активом в значительной степени обуславливает</p>
+                  </li>
+                  <li class="quality-item">
+                      <h3 class="quality-subtitle">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                      <p class="quality-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                  </li>
+            </ul>
+        </div>
+          </section>
+          <!--Чем мы занимаемся-->
+          <section class="whatwedo">
+            <div class="container-whatwedo">
+               <h2 class="secondtitle">Чем мы занимаемся</h2>
+                  <ul class="whatwedo-list">
+                       <li class="whatwedo-item"><img class="whatwedo-image" src="./images/box1.jpg" alt="технології1" width="370" height="294"></li> 
+                       <li class="whatwedo-item"><img class="whatwedo-image" src="./images/box2.jpg" alt="технології2" width="370" height="294"></li> 
+                       <li class="whatwedo-item"><img class="whatwedo-image" src="./images/box3.jpg" alt="технології3" width="370" height="294"></li> 
+                  </ul>
+            </div>     
+          </section>       
+           <!--Наша команда-->
+           <section class="comand">
+               <div class="container-comand">
+               <h2 class="secondtitle-comand">Наша команда</h2>
+                  <ul class="comand-list">
+                      <li class="comand-item">
+                          <img class="comand-image" src="./images/igordemianenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                          <div class="comand-general">
+                          <h3 class="comand-subtitle">Игорь Демьяненко</h3>
+                          <p class="comand-text" lang="en">Product Designer</p>
+                          </div>
+                      </li> 
+                      <li class="comand-item">    
+                          <img class="comand-image" src="./images/olgarepina.jpg"     alt="Ольга Репина" width="270" height="260">
+                          <div class="comand-general">
+                          <h3 class="comand-subtitle">Ольга Репина</h3>
+                          <p class="comand-text" lang="en">Frontend Developer</p>
+                          </div>
+                      </li>
+                      <li class="comand-item">  
+                          <img class="comand-image" src="./images/nikolaitarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                          <div class="comand-general">
+                          <h3 class="comand-subtitle">Николай Тарасов</h3>
+                          <p class="comand-text" lang="en">Marketing</p>
+                          </div>
+                      </li>
+                      <li class="comand-item">   
+                          <img class="comand-image" src="./images/michailermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                          <div class="comand-general">
+                          <h3 class="comand-subtitle">Михаил Ермаков</h3>
+                          <p class="comand-text" lang="en">UI Designer</p>
+                          </div>
+                      </li>
+                  </ul>
+                </div>
+           </section>       
+      </main>
+      <!--Footer-->
+      <footer class="footer">
+          <div class="container-footer">
+        <a class="footer-link" href="webstudio"><span class="footer-txt">Web</span>Studio</a>   
+        <address class="footer-address">
+                    <p class="footer-addresstext">г.Киев, пр-т Леси Украинки, 26</p>
+                </address>
+                <ul class="footer-list">
+                    <li class="footer-item"><a class="footer-mail" href="mailto:info@example.com"><span>info@example.com</span></a></li>
+                    <li class="footer-item"><a class="footer-phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                 </ul> 
+        </div>    
+      </footer>
+</body>
+</html>
